@@ -2,62 +2,128 @@
 *{
     
      box-sizing: border-box;
-  
+    
          
 }
 body{
+   border:2px solid #ffffff;
+
     background-color: black;
-    height: 120%;
-    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: auto;
-}
-
-header{
-    background: #1b0707e3;
-    width: 1000px ;
-    height: 80px;
-    justify-items: center;
-
     
 }
+  
+    
+ 
+    header {
+    background: #1b0707e3;
+    width: 90%;
+    height: 90px;
+    margin-top: 10px;
 
-h1{
+}
+  @media screen and (min-width:480px){
+    header{
+        width: 90%;
+    }
+
+}
+
+ h1{
     color: blanchedalmond;
 }
-nav ul li {
+ nav ul li {
     
-
- justify-content:flex-end;
+ 
  display: inline-block;
  color: #ffffff;
  background: #1b0707e3;
- width: auto;
- height: 10px;
-
+ height: auto;
 
 }
-nav ul li a{
+ nav, ul, li, a{
     color: #ffffff;
-    display:flex;
-justify-items:flex-end;
+   text-decoration: none; 
+   display: inline-block;
+   width: 90px;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   
+   
+   
 }
 
-.inicio{
-    width: 100%;
-}
+    
+
+
+.inicio img{
+    width: 90%;
+    height: auto;
+   
+ }  
+ @media screen and (max-width:480px){
+        .inicio img{
+            width: 90%;
+            
+        }
+    }
+
   .gramhome{
-     width: auto auto;
+     width: 90%;
      background: #ffffff;
-     height: 400px;
+     height: 500px;
      display: flex;
      flex-direction: row;
      align-items: center;
      text-align: center;
      justify-content: center;
-  }
- .home{
+     margin: 0px;
+  } 
+    
+        
+    
+  
+    
+     @media screen and (min-width:480px){
+        .gramhome{
+            width: 90%;
+            height: 250px;
+        }
+    }
 
- }
+  .home{
+      margin: 20px;
+     width: 90px;
+
+    }
+    @media screen and (max-width:480px){
+        .home{
+            width: 90px;
+            border:1px solid oldlace;
+            
+        }
+    }
+     .article{
+         width: 100px;
+         height: 100px;
+        flex-direction: column;
+      display: inline-block;        
+     
+     }
+ 
+ 
+
+ .mover{
+   
+     color: turquoise;
+     display: inline-block;
+    padding: 0px;
+    font-size: 1rem;
+}
+
+
+    
+
