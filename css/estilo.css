@@ -130,16 +130,47 @@
  
 
 
- @media screen and (max-width:100px){
-        *{
+ @media screen and (max-width:300px){
+       .gramhome, .home{
        width: 100%;
        height: auto;
     }
  }
 
+ @media screen and (max-width:800px){
+   .home > img{
+   width: 100%;
+   height: auto;
+   margin:  0px; 
+   padding: 0px
+}
+}
      
   
 
 
     
 
+
+@media screen and (max-width:800px){
+     .pin > img{
+   width: 100%;
+   height: auto;
+}
+}
+
+@media screen and (max-width:800px){
+   .miniarticulos,.mover{
+ width: 100%;
+ height: auto;
+ font-size: 10px;
+
+}
+}
+@media screen and (max-width:800px){
+    .aside{
+ width: 100%;
+ height: auto;
+ ;
+}
+}
